@@ -1,16 +1,24 @@
 body {
     font-size: 2em;
     text-align: center;
+    font-family: 'Open Sans';
+}
+
+h1, h2, h3 {
+    font-family: 'Days One';
+}
+
+p.janee {
+    font-size: 400%;
+    font-family: 'Lobster';
 }
 
 p.nee {
     color: red;
-    font-size: 400%;
 }
 
 p.ja {
     color: green;
-    font-size: 400%;
 }
 
 p.description{
