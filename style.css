@@ -1,0 +1,23 @@
+body {
+    font-size: 2em;
+    text-align: center;
+}
+
+p.nee {
+    color: red;
+    font-size: 400%;
+}
+
+p.ja {
+    color: green;
+    font-size: 400%;
+}
+
+p.description{
+    font-size: 130%;
+}
+
+span#counter {
+    color: blue;
+}
+
