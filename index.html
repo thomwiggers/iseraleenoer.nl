@@ -9,7 +9,6 @@
             function telaf() {
                 var doeltijd = new Date(2016,8,1); // y/m-1/d
                 var nu = new Date(2016, 8, 27, 11, 47);
-                console.log(nu)
                 var diff = -1 * (doeltijd.getTime()/1000 - nu.getTime()/1000);
 
                 var dagen = Math.floor(diff/(60*60*24));
@@ -19,7 +18,6 @@
                 var minuten = ('0'+Math.floor(tijdmod / 60)).slice(-2);
                 var seconden = ('0' + Math.floor(tijdmod % 60)).slice(-2);
 
-                console.log(uur)
                 $("#dagen").text(dagen);
                 $("#uur").text(uur);
                 $("#minuten").text(minuten);
@@ -33,7 +31,8 @@
         <p class="janee ja">Ja</p>
         <p class="description">
             Het geschil over het BSA is <strong>eindelijk</strong> opgelost.
-            De OER is daardoor uiteindelijk <span id="counter"><span id="dagen">0</span> dagen, <span id="uur"></span> uur, <span id="minuten"></span> minuten en <span id="seconden"></span> seconden</span> te laat.
+            De OER is daardoor uiteindelijk <span id="counter"><span id="dagen">0</span> dagen, <span id="uur"></span> uur en <span id="minuten"></span> minuten te laat.<br>
+            Je kunt de OER "vinden" op <a href="https://radboudnet.nl/studentenfnwi">Radboudnet</a> onder Regels en Richtlijnen.
         </p>
         <p class="description">
             Wanneer krijgen we de concept-OER voor 2017?
